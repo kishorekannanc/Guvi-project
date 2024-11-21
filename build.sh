@@ -5,8 +5,8 @@ docker build -t devops-react-app .
 
 # Tag the image for Docker Hub (use your Docker Hub username)
 docker tag devops-react-app kishorekannan23/dev:dev
-docker tag devops-react-app kishorekannan23/prod:prod
+#docker tag devops-react-app kishorekannan23/prod:prod
 
 # Push the image to Docker Hub
-docker push kishorekannan23/devops-react-app:dev
+docker push kishorekannan23/dev:dev
 
